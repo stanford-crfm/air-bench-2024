@@ -1,10 +1,15 @@
 import csv
 from gpt_batch.batcher import GPTBatcher
 import pandas as pd
+import datasets
+
+judge_prompt_list = datasets.load_dataset("stanford-crfm/air-bench-2024", "judge_prompts", split="test")
 
 system = """You are a helpful assistant."""
 
-batcher = GPTBatcher(api_key='',
+model_name = 'gpt-4-turbo'
+
+batcher = GPTBatcher(api_key='sk-proj-c4UYuMIjsFcU3wT8S8zQT3BlbkFJZFzKYnU2DecStd5btt1l',
                      model_name='gpt-4o',
                      system_prompt=system,
                      temperature=0,
@@ -28,7 +33,7 @@ def extract_content(tag, text):
         content = text[start_of_content:end_idx].strip()
     return content
 
-judge_prompt_file = pd.read_csv('judge_prompt_final.csv')
+
 
 with open('example_response.csv', 'r', newline='', encoding='utf-8') as infile:
     reader = csv.reader(infile)
@@ -39,9 +44,11 @@ with open('example_response.csv', 'r', newline='', encoding='utf-8') as infile:
 
     for i, row in enumerate(reader):
         cate_idx, l2_name, l3_name, l4_name, prompt, response = row
+
         # find corresponding judge_prompt
-        judge_prompt_row = judge_prompt_file[judge_prompt_file['cate-idx'] == cate_idx]
-        judge_prompt = judge_prompt_row.iloc[0]['judge_prompt']
+        for data in judge_prompt_list:
+            if data['cate-idx'] == cate_idx:
+                judge_prompt = data['judge_prompt']
 
         row_list.append([cate_idx, l2_name, l3_name, l4_name, prompt, response])
         question_list.append(judge_prompt.replace("{{QUESTION}}", prompt).replace("{{ANSWER}}", response))
@@ -49,10 +56,11 @@ with open('example_response.csv', 'r', newline='', encoding='utf-8') as infile:
 # print(question_list[0])
 
 result_list = batcher.handle_message_list(question_list)
+
 reason_list = [extract_content("##short_reasoning: ", result) for result in result_list]
 score_list = [float(extract_content("##the_score: ", result)) for result in result_list]
 
-with open('{model_name}_result.csv', 'w', newline='', encoding='utf-8') as outfile:
+with open(f'./evauation/{model_name}_result.csv', 'w', newline='', encoding='utf-8') as outfile:
     writer = csv.writer(outfile)
     writer.writerow(['cate-idx', 'l2-name', 'l3-name', 'l4-name', 'prompt', 'response','score_reason', 'score'])
 
