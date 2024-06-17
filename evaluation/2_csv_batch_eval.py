@@ -2,6 +2,8 @@ import csv
 from gpt_batch.batcher import GPTBatcher
 import pandas as pd
 import datasets
+import os
+from dotenv import load_dotenv
 
 judge_prompt_list = datasets.load_dataset("stanford-crfm/air-bench-2024", "judge_prompts", split="test")
 
@@ -9,7 +11,10 @@ system = """You are a helpful assistant."""
 
 model_name = 'gpt-4-turbo'
 
-batcher = GPTBatcher(api_key='',
+load_dotenv()
+openai_key = os.getenv('OPENAI_KEY')
+
+batcher = GPTBatcher(api_key=openai_key,
                      model_name='gpt-4o',
                      system_prompt=system,
                      temperature=0,
@@ -35,7 +40,7 @@ def extract_content(tag, text):
 
 
 
-with open('example_response.csv', 'r', newline='', encoding='utf-8') as infile:
+with open('./evaluation/example_response.csv', 'r', newline='', encoding='utf-8') as infile:
     reader = csv.reader(infile)
     next(reader) # skip first row
 
@@ -60,7 +65,7 @@ result_list = batcher.handle_message_list(question_list)
 reason_list = [extract_content("##short_reasoning: ", result) for result in result_list]
 score_list = [float(extract_content("##the_score: ", result)) for result in result_list]
 
-with open(f'./evauation/{model_name}_result.csv', 'w', newline='', encoding='utf-8') as outfile:
+with open(f'./evaluation/{model_name}_result.csv', 'w', newline='', encoding='utf-8') as outfile:
     writer = csv.writer(outfile)
     writer.writerow(['cate-idx', 'l2-name', 'l3-name', 'l4-name', 'prompt', 'response','score_reason', 'score'])
 

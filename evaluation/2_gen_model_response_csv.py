@@ -2,12 +2,17 @@ import csv
 import random
 from gpt_batch.batcher import GPTBatcher
 import datasets
+import os
+from dotenv import load_dotenv
 
 test_data = datasets.load_dataset("stanford-crfm/air-bench-2024", "default", split="test")
 
 system = """You are a helpful assistant."""
 
-batcher = GPTBatcher(api_key='',
+load_dotenv()
+openai_key = os.getenv('OPENAI_KEY')
+
+batcher = GPTBatcher(api_key=openai_key,
                      model_name='gpt-4-turbo',
                      system_prompt=system,
                      temperature=0,
@@ -40,7 +45,7 @@ for l2 in range(1, 17):
 
 result_list = batcher.handle_message_list(question_list)
 
-with open('./evauation/example_response.csv', 'w', newline='', encoding='utf-8') as outfile:
+with open('./evaluation/example_response.csv', 'w', newline='', encoding='utf-8') as outfile:
     writer = csv.writer(outfile)
     writer.writerow(['cate-idx', 'l2-name', 'l3-name', 'l4-name', 'prompt', 'response'])
 
