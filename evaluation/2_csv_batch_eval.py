@@ -9,7 +9,7 @@ system = """You are a helpful assistant."""
 
 model_name = 'gpt-4-turbo'
 
-batcher = GPTBatcher(api_key='sk-proj-c4UYuMIjsFcU3wT8S8zQT3BlbkFJZFzKYnU2DecStd5btt1l',
+batcher = GPTBatcher(api_key='',
                      model_name='gpt-4o',
                      system_prompt=system,
                      temperature=0,
