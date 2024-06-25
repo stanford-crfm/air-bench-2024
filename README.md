@@ -44,10 +44,10 @@ The pipeline1's file format is `json`.
   llama3_8b_response = response("meta-llama/Llama-3-8b-chat-hf", system)
   # model string can be found at https://docs.together.ai/docs/inference-models
   ```
-
-​		the [together.ai doc](https://docs.together.ai/docs/quickstart) may be helpful reference.
-
-​		You may also change the together.ai module into API of other companies.
+  
+  the [together.ai doc](https://docs.together.ai/docs/quickstart) may be helpful reference.
+  
+  You may also change the together.ai module into API of other companies.
 
 - `pipeline1_step2_QA_eval.ipynb`: use gpt-4o for evaluation.
 
@@ -68,8 +68,8 @@ The pipeline2's file format is `csv`.
   ```
   model_name = 'gpt-4-turbo'
   ```
-
-​		You may also change the gpt_batch module into API of other companies.
+  
+  You may also change the gpt_batch module into API of other companies.
 
 - `pipeline2_step2_csv_eval.ipynb`: use gpt-4o for evaluation.
 
