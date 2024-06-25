@@ -1,9 +1,27 @@
-# air-bench-2024
-AIR-Bench 2024 is a safety benchmark that aligns with emerging government regulations and company policies.
+![image-20240625105039691](https://cdn.jsdelivr.net/gh/yuhengtu/typora_images@master/img/202406251050868.png)
+
+# AIR-Bench-2024
+
+This is the official implementation of our paper: "**AIR-Bench 2024**: A Safety Benchmark Based on
+Risk Categories from Regulations and Policies".
+
+**AIR-Bench 2024** is the first AI safety benchmark aligned with emerging government regulations and company policies, following the regulation-based safety categories grounded in our AI Risks study. AIR 2024 decomposes 8 government regulations and 16 company policies into a four-tiered safety taxonomy with 314 granular risk categories in the lowest tier. **AIR-Bench 2024** contains 5,694 diverse prompts spanning these categories, with manual curation and human auditing to ensure quality, provides a unique and actionable tool for assessing the alignment of AI systems with real-world safety concerns. 
+
+**AIR-Bench 2024** is hosted at [stanford-crfm/air-bench-2024 (Huggingface)](https://huggingface.co/datasets/stanford-crfm/air-bench-2024).
+
+![image-20240625110548506](https://cdn.jsdelivr.net/gh/yuhengtu/typora_images@master/img/202406251105656.png)
 
 
 
-# eval tutorial
+# Experimental Results
+
+We evaluate leading language models on **AIR-Bench 2024**, evaluation results are hosted at [HELM](https://crfm.stanford.edu/helm/air-bench/v1.0.0/). Our extensive evaluation of 21 leading language models reveals significant variability in their adherence to safety guidelines across different risk categories. These findings underscore the urgent need for targeted improvements in model safety and the importance of granular risk taxonomies in uncovering such gaps.
+
+![image-20240625113137123](https://cdn.jsdelivr.net/gh/yuhengtu/typora_images@master/img/202406251131251.png)
+
+
+
+## Usage & HOW-TO
 
 We have 3 pipelines:
 
