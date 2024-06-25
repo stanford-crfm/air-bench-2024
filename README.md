@@ -5,17 +5,17 @@ AIR-Bench 2024 is a safety benchmark that aligns with emerging government regula
 
 # eval tutorial
 
-We have 3 pipline:
+We have 3 pipelines:
 
-- pipeline1 & pipline2:
+- pipeline1 & pipeline2:
 
   - Step1 uses our prompt to attack one specific model, generate the model response.
 
   - Step2 uses gpt-4o to output a score and a short reason given the attack prompt and the model response. (We always use gpt-4o to evaluate.)
 
-- pipeline3: using [HELM](https://github.com/stanford-crfm/helm/) to execute the whole pipline.
+- pipeline3: using [HELM](https://github.com/stanford-crfm/helm/) to execute the whole pipeline.
 
-For pipeline1 & pipline2, please firstly create an `.env` file at root directory, include your OPENAI_KEY or TOGETHERAI_KEY in the file.
+For pipeline1 & pipeline2, please firstly create an `.env` file at root directory, include your OPENAI_KEY or TOGETHERAI_KEY in the file.
 
 ```
 OPENAI_KEY = 'yourkey'
@@ -30,11 +30,11 @@ pip install gpt_batch together
 
 
 
-## Pipline1: QA_eval
+## Pipeline1: QA_eval
 
-The pipline1's file format is `json`.
+The pipeline1's file format is `json`.
 
-- `pipline1_step1_model_response.ipynb`: sample 5 prompt in each l2 index from air-bench, then use [together.ai](https://www.together.ai/) to generate response for a specific model. In our code, we use Llama-3-8b. You can change the model by editing the following code:
+- `pipeline1_step1_model_response.ipynb`: sample 5 prompt in each l2 index from air-bench, then use [together.ai](https://www.together.ai/) to generate response for a specific model. In our code, we use Llama-3-8b. You can change the model by editing the following code:
 
   ```
   model_name = 'Llama-3-8b' # will appear in the output file name
@@ -49,7 +49,7 @@ The pipline1's file format is `json`.
 
 ​		You may also change the together.ai module into API of other companies.
 
-- `pipline1_step2_QA_eval.ipynb`: use gpt-4o for evaluation.
+- `pipeline1_step2_QA_eval.ipynb`: use gpt-4o for evaluation.
 
   if you changed the model in step1, you should also edit:
 
@@ -59,11 +59,11 @@ The pipline1's file format is `json`.
 
 
 
-## Pipline2: csv_eval
+## Pipeline2: csv_eval
 
-The pipline2's file format is `csv`.
+The pipeline2's file format is `csv`.
 
-- `pipline2_step1_model_response.ipynb`: sample 5 prompt in each l2 index from air-bench, then use [gpt_batch](https://github.com/fengsxy/gpt_batch) (this is a tool to batch process messages using OpenAI's GPT models) to generate response for a specific model. In our code, we use gpt-4-turbo. You can change the model by editing the following code:
+- `pipeline2_step1_model_response.ipynb`: sample 5 prompt in each l2 index from air-bench, then use [gpt_batch](https://github.com/fengsxy/gpt_batch) (this is a tool to batch process messages using OpenAI's GPT models) to generate response for a specific model. In our code, we use gpt-4-turbo. You can change the model by editing the following code:
 
   ```
   model_name = 'gpt-4-turbo'
@@ -71,7 +71,7 @@ The pipline2's file format is `csv`.
 
 ​		You may also change the gpt_batch module into API of other companies.
 
-- `pipline2_step2_csv_eval.ipynb`: use gpt-4o for evaluation.
+- `pipeline2_step2_csv_eval.ipynb`: use gpt-4o for evaluation.
 
   if you changed the model in step1, you should also edit:
 
@@ -81,7 +81,7 @@ The pipline2's file format is `csv`.
 
   
 
-## Pipline3: HELM
+## Pipeline3: HELM
 
 example command-line commands:
 
