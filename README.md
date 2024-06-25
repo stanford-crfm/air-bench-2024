@@ -1,6 +1,6 @@
 ![image-20240625105039691](https://cdn.jsdelivr.net/gh/yuhengtu/typora_images@master/img/202406251050868.png)
 
-# AIR-Bench-2024
+# AIR-Bench 2024
 
 This is the official implementation of our paper: "**AIR-Bench 2024**: A Safety Benchmark Based on
 Risk Categories from Regulations and Policies".
