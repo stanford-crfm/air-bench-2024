@@ -1,0 +1,8 @@
+{
+  "name": "air_bench_2024",
+  "description": "AIRBench 2024 is a AI safety benchmark that aligns with emerging government regulations and company policies",
+  "tags": [
+    "safety"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/air_bench_scenario.py"
+}
