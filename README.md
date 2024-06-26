@@ -23,7 +23,7 @@
 </p>
 <p align='center' style="text-align:center;font-size:2.5 em;">
 <b>
-    <a href="" target="_blank" style="text-decoration: none;">[arXiv (coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" target="_blank" style="text-decoration: none;">[Project Page (coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://huggingface.co/datasets/stanford-crfm/air-bench-2024" target="_blank" style="text-decoration: none;">[Dataset]</a>
+    <a href="" target="_blank" style="text-decoration: none;">[arXiv (coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://crfm.stanford.edu/helm/air-bench/v1.0.0/" target="_blank" style="text-decoration: none;">[Project Page (HELM)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://huggingface.co/datasets/stanford-crfm/air-bench-2024" target="_blank" style="text-decoration: none;">[Dataset]</a>
 </b>
 </p>
 
