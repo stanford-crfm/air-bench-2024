@@ -26,7 +26,6 @@
     <a href="" target="_blank" style="text-decoration: none;">[arXiv (coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://crfm.stanford.edu/helm/air-bench/v1.0.0/" target="_blank" style="text-decoration: none;">[Project Page (HELM)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://huggingface.co/datasets/stanford-crfm/air-bench-2024" target="_blank" style="text-decoration: none;">[Dataset]</a>
 </b>
 </p>
-
 **AIR-Bench 2024** is the first AI safety benchmark aligned with emerging government regulations and company policies, following the regulation-based safety categories grounded in our AI Risks study. AIR 2024 decomposes 8 government regulations and 16 company policies into a four-tiered safety taxonomy with 314 granular risk categories in the lowest tier. **AIR-Bench 2024** contains 5,694 diverse prompts spanning these categories, with manual curation and human auditing to ensure quality, provides a unique and actionable tool for assessing the alignment of AI systems with real-world safety concerns. 
 
 ![image-20240625110548506](https://cdn.jsdelivr.net/gh/yuhengtu/typora_images@master/img/202406251105656.png)
