@@ -1,0 +1,1561 @@
+{
+    "1": {
+        "name": "Security Risks",
+        "total": 12,
+        "subcategories": {
+            "1.1": {
+                "name": "Confidentiality",
+                "items": [
+                    {
+                        "idx": "1.1.1",
+                        "name": "Network intrusion"
+                    },
+                    {
+                        "idx": "1.1.2",
+                        "name": "Vulnerability probing"
+                    },
+                    {
+                        "idx": "1.1.3",
+                        "name": "Spoofing"
+                    },
+                    {
+                        "idx": "1.1.4",
+                        "name": "Spear phishing"
+                    },
+                    {
+                        "idx": "1.1.5",
+                        "name": "Social engineering"
+                    },
+                    {
+                        "idx": "1.1.6",
+                        "name": "Unauthorized network entry"
+                    }
+                ]
+            },
+            "1.2": {
+                "name": "Integrity",
+                "items": [
+                    {
+                        "idx": "1.2.7",
+                        "name": "Malware"
+                    },
+                    {
+                        "idx": "1.2.8",
+                        "name": "Packet forgery"
+                    },
+                    {
+                        "idx": "1.2.9",
+                        "name": "Data tampering"
+                    },
+                    {
+                        "idx": "1.2.10",
+                        "name": "Control override (safety/privacy filters)"
+                    }
+                ]
+            },
+            "1.3": {
+                "name": "Availability",
+                "items": [
+                    {
+                        "idx": "1.3.11",
+                        "name": "System/Website impairment"
+                    },
+                    {
+                        "idx": "1.3.12",
+                        "name": "Network disruption"
+                    }
+                ]
+            }
+        }
+    },
+    "2": {
+        "name": "Operational Misuses",
+        "total": 26,
+        "subcategories": {
+            "2.4": {
+                "name": "Automated Decision-Making",
+                "items": [
+                    {
+                        "idx": "2.4.1",
+                        "name": "Financing eligibility/Creditworthiness"
+                    },
+                    {
+                        "idx": "2.4.2",
+                        "name": "Criminal justice/Predictive policing"
+                    },
+                    {
+                        "idx": "2.4.3",
+                        "name": "Adversely affects legal rights"
+                    },
+                    {
+                        "idx": "2.4.4",
+                        "name": "Employment"
+                    },
+                    {
+                        "idx": "2.4.5",
+                        "name": "Social scoring"
+                    },
+                    {
+                        "idx": "2.4.6",
+                        "name": "Housing eligibility"
+                    },
+                    {
+                        "idx": "2.4.7",
+                        "name": "Education eligibility"
+                    },
+                    {
+                        "idx": "2.4.8",
+                        "name": "Migration eligibility"
+                    },
+                    {
+                        "idx": "2.4.9",
+                        "name": "Insurance eligibility"
+                    },
+                    {
+                        "idx": "2.4.10",
+                        "name": "Profiling"
+                    }
+                ]
+            },
+            "2.5": {
+                "name": "Autonomous Unsafe Operation of Systems",
+                "items": [
+                    {
+                        "idx": "2.5.11",
+                        "name": "Heavy machinery"
+                    },
+                    {
+                        "idx": "2.5.12",
+                        "name": "Transportation"
+                    },
+                    {
+                        "idx": "2.5.13",
+                        "name": "Energy/Electrical grids"
+                    },
+                    {
+                        "idx": "2.5.14",
+                        "name": "Nuclear facilities"
+                    },
+                    {
+                        "idx": "2.5.15",
+                        "name": "Aircraft navigation/Air traffic control"
+                    },
+                    {
+                        "idx": "2.5.16",
+                        "name": "Communication systems"
+                    },
+                    {
+                        "idx": "2.5.17",
+                        "name": "Water treatment facilities"
+                    },
+                    {
+                        "idx": "2.5.18",
+                        "name": "Life support"
+                    },
+                    {
+                        "idx": "2.5.19",
+                        "name": "Weapon systems/Battlefield management"
+                    },
+                    {
+                        "idx": "2.5.20",
+                        "name": "Emergency services"
+                    },
+                    {
+                        "idx": "2.5.21",
+                        "name": "Other unauthorized actions on behalf of users"
+                    }
+                ]
+            },
+            "2.6": {
+                "name": "Advice in Heavily Regulated Industries",
+                "items": [
+                    {
+                        "idx": "2.6.22",
+                        "name": "Legal"
+                    },
+                    {
+                        "idx": "2.6.23",
+                        "name": "Medical/Pharmaceutical"
+                    },
+                    {
+                        "idx": "2.6.24",
+                        "name": "Accounting"
+                    },
+                    {
+                        "idx": "2.6.25",
+                        "name": "Financial"
+                    },
+                    {
+                        "idx": "2.6.26",
+                        "name": "Government services"
+                    }
+                ]
+            }
+        }
+    },
+    "3": {
+        "name": "Violence & Extremism",
+        "total": 22,
+        "subcategories": {
+            "3.7": {
+                "name": "Supporting Malicious Organized Groups",
+                "items": [
+                    {
+                        "idx": "3.7.1",
+                        "name": "Extremism"
+                    },
+                    {
+                        "idx": "3.7.2",
+                        "name": "Terrorism"
+                    },
+                    {
+                        "idx": "3.7.3",
+                        "name": "Criminal organization"
+                    }
+                ]
+            },
+            "3.8": {
+                "name": "Celebrating Suffering",
+                "items": [
+                    {
+                        "idx": "3.8.4",
+                        "name": "Glorifying violence, abuse, or the suffering of others"
+                    },
+                    {
+                        "idx": "3.8.5",
+                        "name": "Belittling victimhood or violent events/Denying the deeds of martyrdom"
+                    },
+                    {
+                        "idx": "3.8.6",
+                        "name": "Denying or minimizing well-documented, major violent events or the victimhood of such events"
+                    },
+                    {
+                        "idx": "3.8.7",
+                        "name": "Beautifying and whitewashing acts of war or aggression"
+                    }
+                ]
+            },
+            "3.9": {
+                "name": "Violent acts",
+                "items": [
+                    {
+                        "idx": "3.9.8",
+                        "name": "Persons (including murder)"
+                    },
+                    {
+                        "idx": "3.9.9",
+                        "name": "Animals"
+                    },
+                    {
+                        "idx": "3.9.10",
+                        "name": "Property damage"
+                    },
+                    {
+                        "idx": "3.9.11",
+                        "name": "Environmental"
+                    }
+                ]
+            },
+            "3.10": {
+                "name": "Depicting Violence",
+                "items": [
+                    {
+                        "idx": "3.10.12",
+                        "name": "Bodily destruction"
+                    },
+                    {
+                        "idx": "3.10.13",
+                        "name": "Bodily mutilation"
+                    },
+                    {
+                        "idx": "3.10.14",
+                        "name": "Torture/abuse"
+                    },
+                    {
+                        "idx": "3.10.15",
+                        "name": "Animal abuse"
+                    },
+                    {
+                        "idx": "3.10.16",
+                        "name": "Activities meant to kill"
+                    }
+                ]
+            },
+            "3.11": {
+                "name": "Weapon Usage & Development",
+                "items": [
+                    {
+                        "idx": "3.11.17",
+                        "name": "Guns"
+                    },
+                    {
+                        "idx": "3.11.18",
+                        "name": "Explosives/Dangerous Materials"
+                    },
+                    {
+                        "idx": "3.11.19",
+                        "name": "Bioweapons/Viruses/Gain-of-function"
+                    },
+                    {
+                        "idx": "3.11.20",
+                        "name": "Nuclear Weapons"
+                    },
+                    {
+                        "idx": "3.11.21",
+                        "name": "Chemical Weapons"
+                    }
+                ]
+            },
+            "3.12": {
+                "name": "Military and Warfare",
+                "items": [
+                    {
+                        "idx": "3.12.22",
+                        "name": "Military and Warfare"
+                    }
+                ]
+            }
+        }
+    },
+    "4": {
+        "name": "Hate/Toxicity",
+        "total": 36,
+        "subcategories": {
+            "4.13": {
+                "name": "Harassment",
+                "items": [
+                    {
+                        "idx": "4.13.1",
+                        "name": "Bullying"
+                    },
+                    {
+                        "idx": "4.13.2",
+                        "name": "Threats"
+                    },
+                    {
+                        "idx": "4.13.3",
+                        "name": "Intimidation"
+                    },
+                    {
+                        "idx": "4.13.4",
+                        "name": "Shaming"
+                    },
+                    {
+                        "idx": "4.13.5",
+                        "name": "Humiliation"
+                    },
+                    {
+                        "idx": "4.13.6",
+                        "name": "Insults/Personal attacks"
+                    },
+                    {
+                        "idx": "4.13.7",
+                        "name": "Abuse"
+                    },
+                    {
+                        "idx": "4.13.8",
+                        "name": "Provoking"
+                    },
+                    {
+                        "idx": "4.13.9",
+                        "name": "Trolling"
+                    },
+                    {
+                        "idx": "4.13.10",
+                        "name": "Doxing"
+                    },
+                    {
+                        "idx": "4.13.11",
+                        "name": "Cursing"
+                    }
+                ]
+            },
+            "4.14": {
+                "name": "Hate Speech (Inciting/Promoting/Expressing hatred)",
+                "items": [
+                    {
+                        "idx": "4.14.12",
+                        "name": "Race"
+                    },
+                    {
+                        "idx": "4.14.13",
+                        "name": "Ethnicity"
+                    },
+                    {
+                        "idx": "4.14.14",
+                        "name": "Color"
+                    },
+                    {
+                        "idx": "4.14.15",
+                        "name": "Gender"
+                    },
+                    {
+                        "idx": "4.14.16",
+                        "name": "Sexual orientation"
+                    },
+                    {
+                        "idx": "4.14.17",
+                        "name": "Religion"
+                    },
+                    {
+                        "idx": "4.14.18",
+                        "name": "Beliefs"
+                    },
+                    {
+                        "idx": "4.14.19",
+                        "name": "Nationality"
+                    },
+                    {
+                        "idx": "4.14.20",
+                        "name": "Geographic region"
+                    },
+                    {
+                        "idx": "4.14.21",
+                        "name": "Caste"
+                    },
+                    {
+                        "idx": "4.14.22",
+                        "name": "Social behaviors"
+                    },
+                    {
+                        "idx": "4.14.23",
+                        "name": "Physical characteristics"
+                    },
+                    {
+                        "idx": "4.14.24",
+                        "name": "Mental characteristics"
+                    },
+                    {
+                        "idx": "4.14.25",
+                        "name": "Personality"
+                    },
+                    {
+                        "idx": "4.14.26",
+                        "name": "Health conditions"
+                    },
+                    {
+                        "idx": "4.14.27",
+                        "name": "Disability"
+                    },
+                    {
+                        "idx": "4.14.28",
+                        "name": "Pregnancy status"
+                    },
+                    {
+                        "idx": "4.14.29",
+                        "name": "Genetic information"
+                    },
+                    {
+                        "idx": "4.14.30",
+                        "name": "Occupation"
+                    },
+                    {
+                        "idx": "4.14.31",
+                        "name": "Age"
+                    }
+                ]
+            },
+            "4.15": {
+                "name": "Perpetuating Harmful Beliefs",
+                "items": [
+                    {
+                        "idx": "4.15.32",
+                        "name": "Negative stereotyping of any group"
+                    },
+                    {
+                        "idx": "4.15.33",
+                        "name": "Perpetuating racism"
+                    },
+                    {
+                        "idx": "4.15.34",
+                        "name": "Perpetuating sexism"
+                    }
+                ]
+            },
+            "4.16": {
+                "name": "Offensive Language",
+                "items": [
+                    {
+                        "idx": "4.16.35",
+                        "name": "Vulgar terms"
+                    },
+                    {
+                        "idx": "4.16.36",
+                        "name": "Derogatory comments"
+                    }
+                ]
+            }
+        }
+    },
+    "5": {
+        "name": "Sexual Content",
+        "total": 9,
+        "subcategories": {
+            "5.17": {
+                "name": "Adult content",
+                "items": [
+                    {
+                        "idx": "5.17.1",
+                        "name": "Obscene"
+                    },
+                    {
+                        "idx": "5.17.2",
+                        "name": "Suggestive"
+                    },
+                    {
+                        "idx": "5.17.3",
+                        "name": "Sexual acts"
+                    },
+                    {
+                        "idx": "5.17.4",
+                        "name": "Sexual intercourse"
+                    }
+                ]
+            },
+            "5.18": {
+                "name": "Erotic",
+                "items": [
+                    {
+                        "idx": "5.18.5",
+                        "name": "Erotic chats"
+                    },
+                    {
+                        "idx": "5.18.6",
+                        "name": "Fetishes"
+                    }
+                ]
+            },
+            "5.19": {
+                "name": "Non-Consensual Nudity",
+                "items": [
+                    {
+                        "idx": "5.19.7",
+                        "name": "NCII (Non-consensual Intimate Image)"
+                    }
+                ]
+            },
+            "5.20": {
+                "name": "Monetized",
+                "items": [
+                    {
+                        "idx": "5.20.8",
+                        "name": "Pornography"
+                    },
+                    {
+                        "idx": "5.20.9",
+                        "name": "Promotion of sexual services"
+                    }
+                ]
+            }
+        }
+    },
+    "6": {
+        "name": "Child Harm",
+        "total": 7,
+        "subcategories": {
+            "6.21": {
+                "name": "Endangerment, Harm, or Abuse of Children",
+                "items": [
+                    {
+                        "idx": "6.21.1",
+                        "name": "Grooming"
+                    },
+                    {
+                        "idx": "6.21.2",
+                        "name": "Pedophilia"
+                    },
+                    {
+                        "idx": "6.21.3",
+                        "name": "Exploiting or Harming minors"
+                    },
+                    {
+                        "idx": "6.21.4",
+                        "name": "Building services targeting minors/failure to employ age-gating"
+                    },
+                    {
+                        "idx": "6.21.5",
+                        "name": "Building services to present a persona of minor"
+                    }
+                ]
+            },
+            "6.22": {
+                "name": "Child Sexual Abuse",
+                "items": [
+                    {
+                        "idx": "6.22.6",
+                        "name": "Solicitation"
+                    },
+                    {
+                        "idx": "6.22.7",
+                        "name": "CSAM"
+                    }
+                ]
+            }
+        }
+    },
+    "7": {
+        "name": "Self-harm",
+        "total": 3,
+        "subcategories": {
+            "7.23": {
+                "name": "Suicidal and non-suicidal self Injury",
+                "items": [
+                    {
+                        "idx": "7.23.1",
+                        "name": "Suicide"
+                    },
+                    {
+                        "idx": "7.23.2",
+                        "name": "Cutting"
+                    },
+                    {
+                        "idx": "7.23.3",
+                        "name": "Eating Disorders (anorexia/ bulimia)"
+                    }
+                ]
+            }
+        }
+    },
+    "8": {
+        "name": "Political Usage",
+        "total": 25,
+        "subcategories": {
+            "8.24": {
+                "name": "Political Persuasion",
+                "items": [
+                    {
+                        "idx": "8.24.1",
+                        "name": "Lobbying"
+                    },
+                    {
+                        "idx": "8.24.2",
+                        "name": "Generating high-volume campaign materials"
+                    },
+                    {
+                        "idx": "8.24.3",
+                        "name": "Personalized or targeted campaign materials"
+                    },
+                    {
+                        "idx": "8.24.4",
+                        "name": "Building systems for political campaigning or lobbying"
+                    },
+                    {
+                        "idx": "8.24.5",
+                        "name": "Building products for political campaigning or lobbying"
+                    },
+                    {
+                        "idx": "8.24.6",
+                        "name": "Political advertisements"
+                    },
+                    {
+                        "idx": "8.24.7",
+                        "name": "Propaganda"
+                    }
+                ]
+            },
+            "8.25": {
+                "name": "Influencing Politics",
+                "items": [
+                    {
+                        "idx": "8.25.8",
+                        "name": "Influence political decisions"
+                    },
+                    {
+                        "idx": "8.25.9",
+                        "name": "Influence political opinions"
+                    }
+                ]
+            },
+            "8.26": {
+                "name": "Deterring Democratic Participation",
+                "items": [
+                    {
+                        "idx": "8.26.10",
+                        "name": "Deterring participation in democratic processes"
+                    },
+                    {
+                        "idx": "8.26.11",
+                        "name": "Misrepresenting voting processes"
+                    },
+                    {
+                        "idx": "8.26.12",
+                        "name": "Misrepresenting voting qualifications"
+                    },
+                    {
+                        "idx": "8.26.13",
+                        "name": "Discouraging voting"
+                    }
+                ]
+            },
+            "8.27": {
+                "name": "Disrupting Social Order (China-unique)",
+                "items": [
+                    {
+                        "idx": "8.27.14",
+                        "name": "Opposing constitutional principles"
+                    },
+                    {
+                        "idx": "8.27.15",
+                        "name": "Subverting state power"
+                    },
+                    {
+                        "idx": "8.27.16",
+                        "name": "Undermining national unity"
+                    },
+                    {
+                        "idx": "8.27.17",
+                        "name": "Damaging state interests"
+                    },
+                    {
+                        "idx": "8.27.18",
+                        "name": "Damaging state honor"
+                    },
+                    {
+                        "idx": "8.27.19",
+                        "name": "Inciting unlawful assemblies"
+                    },
+                    {
+                        "idx": "8.27.20",
+                        "name": "Inciting unlawful associations"
+                    },
+                    {
+                        "idx": "8.27.21",
+                        "name": "Inciting unlawful processions"
+                    },
+                    {
+                        "idx": "8.27.22",
+                        "name": "Inciting unlawful demonstrations"
+                    },
+                    {
+                        "idx": "8.27.23",
+                        "name": "Undermining religious policies"
+                    },
+                    {
+                        "idx": "8.27.24",
+                        "name": "Promoting cults"
+                    },
+                    {
+                        "idx": "8.27.25",
+                        "name": "Promoting feudal superstitions"
+                    }
+                ]
+            }
+        }
+    },
+    "9": {
+        "name": "Economic Harm",
+        "total": 10,
+        "subcategories": {
+            "9.28": {
+                "name": "High-Risk Financial Activities",
+                "items": [
+                    {
+                        "idx": "9.28.1",
+                        "name": "Gambling (e.g., sports betting)"
+                    },
+                    {
+                        "idx": "9.28.2",
+                        "name": "Payday lending"
+                    }
+                ]
+            },
+            "9.29": {
+                "name": "Unfair Market Practices",
+                "items": [
+                    {
+                        "idx": "9.29.3",
+                        "name": "Exploiting advantages for monopolistic practices"
+                    },
+                    {
+                        "idx": "9.29.4",
+                        "name": "Anticompetitive practices"
+                    }
+                ]
+            },
+            "9.30": {
+                "name": "Disempowering Workers",
+                "items": [
+                    {
+                        "idx": "9.30.5",
+                        "name": "Undermine workers' rights"
+                    },
+                    {
+                        "idx": "9.30.6",
+                        "name": "Worsen job quality"
+                    },
+                    {
+                        "idx": "9.30.7",
+                        "name": "Encourage undue worker surveillance"
+                    },
+                    {
+                        "idx": "9.30.8",
+                        "name": "Cause harmful labor-force disruptions"
+                    }
+                ]
+            },
+            "9.31": {
+                "name": "Fraudulent Schemes",
+                "items": [
+                    {
+                        "idx": "9.31.9",
+                        "name": "Multi-level marketing"
+                    },
+                    {
+                        "idx": "9.31.10",
+                        "name": "Pyramid schemes"
+                    }
+                ]
+            }
+        }
+    },
+    "10": {
+        "name": "Deception",
+        "total": 9,
+        "subcategories": {
+            "10.32": {
+                "name": "Fraud",
+                "items": [
+                    {
+                        "idx": "10.32.1",
+                        "name": "Spam"
+                    },
+                    {
+                        "idx": "10.32.2",
+                        "name": "Scams"
+                    },
+                    {
+                        "idx": "10.32.3",
+                        "name": "Phishing/Catfishing"
+                    },
+                    {
+                        "idx": "10.32.4",
+                        "name": "Pseudo-pharmaceuticals"
+                    },
+                    {
+                        "idx": "10.32.5",
+                        "name": "Impersonating others"
+                    }
+                ]
+            },
+            "10.33": {
+                "name": "Academic dishonesty",
+                "items": [
+                    {
+                        "idx": "10.33.6",
+                        "name": "Plagiarism"
+                    },
+                    {
+                        "idx": "10.33.7",
+                        "name": "Promoting academic dishonesty"
+                    }
+                ]
+            },
+            "10.34": {
+                "name": "Mis/disinformation",
+                "items": [
+                    {
+                        "idx": "10.34.8",
+                        "name": "Generating or promoting misinformation"
+                    },
+                    {
+                        "idx": "10.34.9",
+                        "name": "Fake online engagement (fake reviews, fake grassroots support)"
+                    }
+                ]
+            }
+        }
+    },
+    "11": {
+        "name": "Manipulation",
+        "total": 5,
+        "subcategories": {
+            "11.35": {
+                "name": "Sowing Division",
+                "items": [
+                    {
+                        "idx": "11.35.1",
+                        "name": "Contents aim to turn a community against itself."
+                    },
+                    {
+                        "idx": "11.35.2",
+                        "name": "Content to divert attention from harmful actions"
+                    }
+                ]
+            },
+            "11.36": {
+                "name": "Misrepresentation",
+                "items": [
+                    {
+                        "idx": "11.36.3",
+                        "name": "Automated social media posts"
+                    },
+                    {
+                        "idx": "11.36.4",
+                        "name": "Not labeling content as AI-generated (Using chatbots to convince people they are communicating with a human)"
+                    },
+                    {
+                        "idx": "11.36.5",
+                        "name": "Impersonating humans"
+                    }
+                ]
+            }
+        }
+    },
+    "12": {
+        "name": "Defamation",
+        "total": 3,
+        "subcategories": {
+            "12.37": {
+                "name": "Types of Defamation",
+                "items": [
+                    {
+                        "idx": "12.37.1",
+                        "name": "Disparagement"
+                    },
+                    {
+                        "idx": "12.37.2",
+                        "name": "Libel"
+                    },
+                    {
+                        "idx": "12.37.3",
+                        "name": "Slander"
+                    }
+                ]
+            }
+        }
+    },
+    "13": {
+        "name": "Fundamental Rights",
+        "total": 5,
+        "subcategories": {
+            "13.38": {
+                "name": "Specific Types of Rights",
+                "items": [
+                    {
+                        "idx": "13.38.1",
+                        "name": "IP Rights/ Trade Secrets"
+                    },
+                    {
+                        "idx": "13.38.2",
+                        "name": "Portrait rights"
+                    },
+                    {
+                        "idx": "13.38.3",
+                        "name": "Reputation rights"
+                    },
+                    {
+                        "idx": "13.38.4",
+                        "name": "Honor rights"
+                    },
+                    {
+                        "idx": "13.38.5",
+                        "name": "Name rights"
+                    }
+                ]
+            }
+        }
+    },
+    "14": {
+        "name": "Discrimination/Bias",
+        "total": 60,
+        "subcategories": {
+            "14.3940": {
+                "name": "Discrimination/Protected Characteristics Combinations",
+                "items": [
+                    {
+                        "idx": "14.3940.1",
+                        "name": "Discrimination in employment, benefits, or services - Race"
+                    },
+                    {
+                        "idx": "14.3940.2",
+                        "name": "Discrimination in employment, benefits, or services - Ethnicity"
+                    },
+                    {
+                        "idx": "14.3940.3",
+                        "name": "Discrimination in employment, benefits, or services - Color"
+                    },
+                    {
+                        "idx": "14.3940.4",
+                        "name": "Discrimination in employment, benefits, or services - Gender"
+                    },
+                    {
+                        "idx": "14.3940.5",
+                        "name": "Discrimination in employment, benefits, or services - Sexual orientation"
+                    },
+                    {
+                        "idx": "14.3940.6",
+                        "name": "Discrimination in employment, benefits, or services - Religion"
+                    },
+                    {
+                        "idx": "14.3940.7",
+                        "name": "Discrimination in employment, benefits, or services - Beliefs"
+                    },
+                    {
+                        "idx": "14.3940.8",
+                        "name": "Discrimination in employment, benefits, or services - Nationality"
+                    },
+                    {
+                        "idx": "14.3940.9",
+                        "name": "Discrimination in employment, benefits, or services - Geographic region"
+                    },
+                    {
+                        "idx": "14.3940.10",
+                        "name": "Discrimination in employment, benefits, or services - Caste"
+                    },
+                    {
+                        "idx": "14.3940.11",
+                        "name": "Discrimination in employment, benefits, or services - Social behaviors"
+                    },
+                    {
+                        "idx": "14.3940.12",
+                        "name": "Discrimination in employment, benefits, or services - Physical Characteristics"
+                    },
+                    {
+                        "idx": "14.3940.13",
+                        "name": "Discrimination in employment, benefits, or services - Mental Characteristics"
+                    },
+                    {
+                        "idx": "14.3940.14",
+                        "name": "Discrimination in employment, benefits, or services - Predicted Personality"
+                    },
+                    {
+                        "idx": "14.3940.15",
+                        "name": "Discrimination in employment, benefits, or services - Health conditions"
+                    },
+                    {
+                        "idx": "14.3940.16",
+                        "name": "Discrimination in employment, benefits, or services - Disability"
+                    },
+                    {
+                        "idx": "14.3940.17",
+                        "name": "Discrimination in employment, benefits, or services - Pregnancy Status"
+                    },
+                    {
+                        "idx": "14.3940.18",
+                        "name": "Discrimination in employment, benefits, or services - Genetic Information"
+                    },
+                    {
+                        "idx": "14.3940.19",
+                        "name": "Discrimination in employment, benefits, or services - Occupation"
+                    },
+                    {
+                        "idx": "14.3940.20",
+                        "name": "Discrimination in employment, benefits, or services - Age"
+                    },
+                    {
+                        "idx": "14.3940.21",
+                        "name": "Characterization of identity - Race"
+                    },
+                    {
+                        "idx": "14.3940.22",
+                        "name": "Characterization of identity - Ethnicity"
+                    },
+                    {
+                        "idx": "14.3940.23",
+                        "name": "Characterization of identity - Color"
+                    },
+                    {
+                        "idx": "14.3940.24",
+                        "name": "Characterization of identity - Gender"
+                    },
+                    {
+                        "idx": "14.3940.25",
+                        "name": "Characterization of identity - Sexual orientation"
+                    },
+                    {
+                        "idx": "14.3940.26",
+                        "name": "Characterization of identity - Religion"
+                    },
+                    {
+                        "idx": "14.3940.27",
+                        "name": "Characterization of identity - Beliefs"
+                    },
+                    {
+                        "idx": "14.3940.28",
+                        "name": "Characterization of identity - Nationality"
+                    },
+                    {
+                        "idx": "14.3940.29",
+                        "name": "Characterization of identity - Geographic region"
+                    },
+                    {
+                        "idx": "14.3940.30",
+                        "name": "Characterization of identity - Caste"
+                    },
+                    {
+                        "idx": "14.3940.31",
+                        "name": "Characterization of identity - Social behaviors"
+                    },
+                    {
+                        "idx": "14.3940.32",
+                        "name": "Characterization of identity - Physical Characteristics"
+                    },
+                    {
+                        "idx": "14.3940.33",
+                        "name": "Characterization of identity - Mental Characteristics"
+                    },
+                    {
+                        "idx": "14.3940.34",
+                        "name": "Characterization of identity - Predicted Personality"
+                    },
+                    {
+                        "idx": "14.3940.35",
+                        "name": "Characterization of identity - Health conditions"
+                    },
+                    {
+                        "idx": "14.3940.36",
+                        "name": "Characterization of identity - Disability"
+                    },
+                    {
+                        "idx": "14.3940.37",
+                        "name": "Characterization of identity - Pregnancy Status"
+                    },
+                    {
+                        "idx": "14.3940.38",
+                        "name": "Characterization of identity - Genetic Information"
+                    },
+                    {
+                        "idx": "14.3940.39",
+                        "name": "Characterization of identity - Occupation"
+                    },
+                    {
+                        "idx": "14.3940.40",
+                        "name": "Characterization of identity - Age"
+                    },
+                    {
+                        "idx": "14.3940.41",
+                        "name": "Classification of individuals - Race"
+                    },
+                    {
+                        "idx": "14.3940.42",
+                        "name": "Classification of individuals - Ethnicity"
+                    },
+                    {
+                        "idx": "14.3940.43",
+                        "name": "Classification of individuals - Color"
+                    },
+                    {
+                        "idx": "14.3940.44",
+                        "name": "Classification of individuals - Gender"
+                    },
+                    {
+                        "idx": "14.3940.45",
+                        "name": "Classification of individuals - Sexual orientation"
+                    },
+                    {
+                        "idx": "14.3940.46",
+                        "name": "Classification of individuals - Religion"
+                    },
+                    {
+                        "idx": "14.3940.47",
+                        "name": "Classification of individuals - Beliefs"
+                    },
+                    {
+                        "idx": "14.3940.48",
+                        "name": "Classification of individuals - Nationality"
+                    },
+                    {
+                        "idx": "14.3940.49",
+                        "name": "Classification of individuals - Geographic region"
+                    },
+                    {
+                        "idx": "14.3940.50",
+                        "name": "Classification of individuals - Caste"
+                    },
+                    {
+                        "idx": "14.3940.51",
+                        "name": "Classification of individuals - Social behaviors"
+                    },
+                    {
+                        "idx": "14.3940.52",
+                        "name": "Classification of individuals - Physical Characteristics"
+                    },
+                    {
+                        "idx": "14.3940.53",
+                        "name": "Classification of individuals - Mental Characteristics"
+                    },
+                    {
+                        "idx": "14.3940.54",
+                        "name": "Classification of individuals - Predicted Personality"
+                    },
+                    {
+                        "idx": "14.3940.55",
+                        "name": "Classification of individuals - Health conditions"
+                    },
+                    {
+                        "idx": "14.3940.56",
+                        "name": "Classification of individuals - Disability"
+                    },
+                    {
+                        "idx": "14.3940.57",
+                        "name": "Classification of individuals - Pregnancy Status"
+                    },
+                    {
+                        "idx": "14.3940.58",
+                        "name": "Classification of individuals - Genetic Information"
+                    },
+                    {
+                        "idx": "14.3940.59",
+                        "name": "Classification of individuals - Occupation"
+                    },
+                    {
+                        "idx": "14.3940.60",
+                        "name": "Classification of individuals - Age"
+                    }
+                ]
+            }
+        }
+    },
+    "15": {
+        "name": "Privacy",
+        "total": 72,
+        "subcategories": {
+            "15.4142": {
+                "name": "Privacy Violations/Sensitive Data Combinations",
+                "items": [
+                    {
+                        "idx": "15.4142.1",
+                        "name": "Unauthorized generation - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.2",
+                        "name": "Unauthorized generation - Health data"
+                    },
+                    {
+                        "idx": "15.4142.3",
+                        "name": "Unauthorized generation - Location data"
+                    },
+                    {
+                        "idx": "15.4142.4",
+                        "name": "Unauthorized generation - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.5",
+                        "name": "Unauthorized generation - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.6",
+                        "name": "Unauthorized generation - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.7",
+                        "name": "Unauthorized generation - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.8",
+                        "name": "Unauthorized generation - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.9",
+                        "name": "Unauthorized generation - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.10",
+                        "name": "Unauthorized disclosure - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.11",
+                        "name": "Unauthorized disclosure - Health data"
+                    },
+                    {
+                        "idx": "15.4142.12",
+                        "name": "Unauthorized disclosure - Location data"
+                    },
+                    {
+                        "idx": "15.4142.13",
+                        "name": "Unauthorized disclosure - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.14",
+                        "name": "Unauthorized disclosure - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.15",
+                        "name": "Unauthorized disclosure - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.16",
+                        "name": "Unauthorized disclosure - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.17",
+                        "name": "Unauthorized disclosure - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.18",
+                        "name": "Unauthorized disclosure - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.19",
+                        "name": "Unauthorized distribution - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.20",
+                        "name": "Unauthorized distribution - Health data"
+                    },
+                    {
+                        "idx": "15.4142.21",
+                        "name": "Unauthorized distribution - Location data"
+                    },
+                    {
+                        "idx": "15.4142.22",
+                        "name": "Unauthorized distribution - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.23",
+                        "name": "Unauthorized distribution - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.24",
+                        "name": "Unauthorized distribution - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.25",
+                        "name": "Unauthorized distribution - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.26",
+                        "name": "Unauthorized distribution - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.27",
+                        "name": "Unauthorized distribution - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.28",
+                        "name": "Unauthorized collection/gathering/stealing - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.29",
+                        "name": "Unauthorized collection/gathering/stealing - Health data"
+                    },
+                    {
+                        "idx": "15.4142.30",
+                        "name": "Unauthorized collection/gathering/stealing - Location data"
+                    },
+                    {
+                        "idx": "15.4142.31",
+                        "name": "Unauthorized collection/gathering/stealing - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.32",
+                        "name": "Unauthorized collection/gathering/stealing - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.33",
+                        "name": "Unauthorized collection/gathering/stealing - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.34",
+                        "name": "Unauthorized collection/gathering/stealing - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.35",
+                        "name": "Unauthorized collection/gathering/stealing - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.36",
+                        "name": "Unauthorized collection/gathering/stealing - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.37",
+                        "name": "Unauthorized processing - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.38",
+                        "name": "Unauthorized processing - Health data"
+                    },
+                    {
+                        "idx": "15.4142.39",
+                        "name": "Unauthorized processing - Location data"
+                    },
+                    {
+                        "idx": "15.4142.40",
+                        "name": "Unauthorized processing - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.41",
+                        "name": "Unauthorized processing - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.42",
+                        "name": "Unauthorized processing - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.43",
+                        "name": "Unauthorized processing - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.44",
+                        "name": "Unauthorized processing - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.45",
+                        "name": "Unauthorized processing - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.46",
+                        "name": "Unauthorized inference/synthesis - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.47",
+                        "name": "Unauthorized inference/synthesis - Health data"
+                    },
+                    {
+                        "idx": "15.4142.48",
+                        "name": "Unauthorized inference/synthesis - Location data"
+                    },
+                    {
+                        "idx": "15.4142.49",
+                        "name": "Unauthorized inference/synthesis - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.50",
+                        "name": "Unauthorized inference/synthesis - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.51",
+                        "name": "Unauthorized inference/synthesis - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.52",
+                        "name": "Unauthorized inference/synthesis - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.53",
+                        "name": "Unauthorized inference/synthesis - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.54",
+                        "name": "Unauthorized inference/synthesis - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.55",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.56",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Health data"
+                    },
+                    {
+                        "idx": "15.4142.57",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Location data"
+                    },
+                    {
+                        "idx": "15.4142.58",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.59",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.60",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.61",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.62",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.63",
+                        "name": "Non-consensual tracking/monitoring/stalking/spyware - Communication Records"
+                    },
+                    {
+                        "idx": "15.4142.64",
+                        "name": "Model Attacks (membership inference, model inversion) - PII (Personal Identifiable Information)"
+                    },
+                    {
+                        "idx": "15.4142.65",
+                        "name": "Model Attacks (membership inference, model inversion) - Health data"
+                    },
+                    {
+                        "idx": "15.4142.66",
+                        "name": "Model Attacks (membership inference, model inversion) - Location data"
+                    },
+                    {
+                        "idx": "15.4142.67",
+                        "name": "Model Attacks (membership inference, model inversion) - Demographic data"
+                    },
+                    {
+                        "idx": "15.4142.68",
+                        "name": "Model Attacks (membership inference, model inversion) - Biometric data (facial recognition)"
+                    },
+                    {
+                        "idx": "15.4142.69",
+                        "name": "Model Attacks (membership inference, model inversion) - Educational records"
+                    },
+                    {
+                        "idx": "15.4142.70",
+                        "name": "Model Attacks (membership inference, model inversion) - Financial records"
+                    },
+                    {
+                        "idx": "15.4142.71",
+                        "name": "Model Attacks (membership inference, model inversion) - Behavioral/ Preference data"
+                    },
+                    {
+                        "idx": "15.4142.72",
+                        "name": "Model Attacks (membership inference, model inversion) - Communication Records"
+                    }
+                ]
+            }
+        }
+    },
+    "16": {
+        "name": "Criminal Activities",
+        "total": 8,
+        "subcategories": {
+            "16.43": {
+                "name": "Illegal/Regulated substances/goods",
+                "items": [
+                    {
+                        "idx": "16.43.1",
+                        "name": "Illegal drugs"
+                    }
+                ]
+            },
+            "16.44": {
+                "name": "Illegal services/exploitation",
+                "items": [
+                    {
+                        "idx": "16.44.2",
+                        "name": "Human trafficking"
+                    },
+                    {
+                        "idx": "16.44.3",
+                        "name": "Sexual Exploitation"
+                    },
+                    {
+                        "idx": "16.44.4",
+                        "name": "Prostitution"
+                    }
+                ]
+            },
+            "16.45": {
+                "name": "Other Illegal/Unlawful/Criminal Activities",
+                "items": [
+                    {
+                        "idx": "16.45.5",
+                        "name": "Involvement in data adversarially adversely affects national security or public interests"
+                    },
+                    {
+                        "idx": "16.45.6",
+                        "name": "Undermining social stability (China-unique)"
+                    },
+                    {
+                        "idx": "16.45.7",
+                        "name": "Undermining international relations (China-unique)"
+                    },
+                    {
+                        "idx": "16.45.8",
+                        "name": "Content abetting/involving/furthering activities violating any applicable law"
+                    }
+                ]
+            }
+        }
+    }
+}
