@@ -148,3 +148,8 @@ then go to http://localhost:8000/ in your browser. You can find the result at **
 
 For details, please refer to the [HELM documentation](https://crfm-helm.readthedocs.io/) and the article on [reproducing leaderboards](https://crfm-helm.readthedocs.io/en/latest/reproducing_leaderboards/).
 
+
+## Licenses
+
+- The code in this repository is licensed under [Apache 2.0](https://github.com/stanford-crfm/air-bench-2024/blob/main/LICENSE).
+- The dataset in the [Hugging Face repository](https://huggingface.co/datasets/stanford-crfm/air-bench-2024) is licensed under [cc-by-4.0](https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/cc-by-4.0.md).
